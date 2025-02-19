@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Suite">
+  <test name="Test">
+      <groups>
+      <run>
+      <include name = "functional"></include>
+      </run>
+      </groups>
+  
+  
+  <!--if include tag is not present in xml then all the test methods of xml classes will get executed-->
+  
+   <!--if include tag is not present in xml but <exclude name= "sanity" 
+   is present then all the test methods will get executed 
+   expect those which  "sanity" group-->
+   
+    <classes>
+      <class name="TestNG.Groups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
