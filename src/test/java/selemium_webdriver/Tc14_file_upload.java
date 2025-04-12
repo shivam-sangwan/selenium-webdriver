@@ -20,10 +20,10 @@ public class Tc14_file_upload {
 		
 		//1: uploading single file
 //		
-//		//first find element where file is to be uploaded
-//		//sendkeys will be used to give path of the file to be uploaded along with file name
-//		driver.findElement(By.xpath("//input[@id='filesToUpload']")).sendKeys("C:\\Users\\shiva\\Downloads\\flower.jpg");
-//        
+		//first find element where file is to be uploaded
+		//sendkeys will be used to give path of the file to be uploaded along with file name
+		driver.findElement(By.xpath("//input[@id='filesToUpload']")).sendKeys("C:\\Users\\shiva\\Downloads\\flower.jpg");
+        
 //	    //verifying if file is uploaded
 //		String filetext = driver.findElement(By.xpath("//ul[@id = 'fileList']//li")).getText();
 //		Assert.assertEquals(filetext,"flower.jpg");
